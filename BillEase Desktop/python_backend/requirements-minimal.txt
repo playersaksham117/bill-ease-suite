@@ -1,0 +1,25 @@
+# Minimal requirements without pandas (for systems without C compiler)
+fastapi>=0.104.1
+uvicorn>=0.24.0
+sqlalchemy>=2.0.23
+aiosqlite>=0.19.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+requests>=2.31.0
+aiofiles>=23.2.1
+python-dateutil>=2.8.2
+pydantic-settings>=2.1.0
+
+# Optional: Install these separately if needed
+# pandas>=2.2.0  # Requires C compiler - install Visual Studio Build Tools first
+# openpyxl>=3.1.2  # For Excel support (requires pandas)
+# reportlab>=4.0.7  # For PDF generation
+# Pillow>=10.1.0  # For image processing
+# qrcode>=7.4.2  # For QR code generation
+# barcode>=0.15.1  # For barcode generation
+# python-barcode>=0.15.1
+# pymysql>=1.1.0  # For MySQL support
+# asyncpg>=0.29.0  # For PostgreSQL support
+
